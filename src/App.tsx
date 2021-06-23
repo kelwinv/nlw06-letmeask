@@ -1,10 +1,20 @@
+import { BrowserRouter, Route } from "react-router-dom";
+
+import { Home } from "./pages/Home";
+import { NewRoom } from "./pages/NewRoom";
+
+import { AuthContextProvider } from "./context/AuthContext"
+
+import "./styles/Global.scss";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>DIA #01</h1>
-      </header>
-    </div>
+    <AuthContextProvider>
+      <BrowserRouter>
+        <Route path="/" exact component={Home} />
+        <Route path="/rooms/new" component={NewRoom} />
+      </BrowserRouter>
+    </AuthContextProvider>
   );
 }
 
