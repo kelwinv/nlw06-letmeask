@@ -12,11 +12,13 @@
 
 <br />
 
-<p align="center">
-  <kbd>
-    <img src=".github/Capa.png" alt="capa" width="50%" style="border-radius: 5px" />
-  </kdb>
-</p>
+<div align="center" >
+  <p style="width: 50%">
+    <kbd>
+      <img src=".github/Capa.png" alt="capa" style="border-radius: 5px" />
+    </kdb>
+  </p>
+</div>
 
 <h1> 
   Sobre
